@@ -1,0 +1,1151 @@
+{
+  "actualizado": "2026-08-07T14:52:54.952172",
+  "ciudades": [
+    {
+      "id": "arica",
+      "nombre": "Arica",
+      "region": "Región de Arica y Parinacota",
+      "lat": -18.4783,
+      "lon": -70.3213,
+      "descripcion": "La ciudad de la eterna primavera, puerta de entrada al norte grande con playas y el Morro de Arica.",
+      "turismo": [
+        {
+          "titulo": "Morro de Arica",
+          "costo": "Gratis",
+          "detalle": "Mirador histórico con vista panorámica a la ciudad y el océano."
+        },
+        {
+          "titulo": "Playa Chinchorro",
+          "costo": "Gratis",
+          "detalle": "La playa urbana más larga de Chile, ideal para caminatas al atardecer."
+        },
+        {
+          "titulo": "Museo Arqueológico San Miguel de Azapa",
+          "costo": "Pago",
+          "detalle": "Guarda las momias más antiguas del mundo (civilización Chinchorro)."
+        },
+        {
+          "titulo": "Valle de Azapa",
+          "costo": "Gratis",
+          "detalle": "Recorrido por olivos milenarios, piscinas y la cultura Chinchorro."
+        }
+      ],
+      "transporte": [
+        "La locomoción colectiva es el medio principal; las líneas A, B y C cubren todo el centro.",
+        "Aeropuerto Chacalluta a 18 km, con buses desde el terminal rodoviario.",
+        "Taxis y aplicaciones disponibles en el centro y zonas turísticas.",
+        "El terminal rodoviario conecta con Iquique, Calama y resto del país.",
+        "Bicicletas: la ciclovía costera une el centro con la playa Chinchorro."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Dr. Juan Noé",
+          "numero": "+56 58 220 5950",
+          "detalle": "Hospital base de la ciudad."
+        }
+      ]
+    },
+    {
+      "id": "iquique",
+      "nombre": "Iquique",
+      "region": "Región de Tarapacá",
+      "lat": -20.217,
+      "lon": -70.1553,
+      "descripcion": "Ciudad costera del norte con playas urbanas, arquitectura georgiana y la zona franca.",
+      "turismo": [
+        {
+          "titulo": "Playa Cavancha",
+          "costo": "Gratis",
+          "detalle": "La playa más popular de la ciudad, con paseo peatonal y deportes náuticos."
+        },
+        {
+          "titulo": "Zona Franca (ZOFRI)",
+          "costo": "Gratis",
+          "detalle": "Un polo comercial con productos a menor precio, ideal para compras."
+        },
+        {
+          "titulo": "Humberstone",
+          "costo": "Pago",
+          "detalle": "Ex oficina salitrera, Patrimonio de la Humanidad de la UNESCO."
+        },
+        {
+          "titulo": "Paseo Baquedano",
+          "costo": "Gratis",
+          "detalle": "Calle con casonas de estilo georgiano que conservan el Iquique antiguo."
+        },
+        {
+          "titulo": "Museo Corbeta Esmeralda",
+          "costo": "Pago",
+          "detalle": "Réplica de la nave histórica del Combate Naval de Iquique."
+        }
+      ],
+      "transporte": [
+        "Colectivos y buses urbanos conectan el centro con Playa Cavancha y ZOFRI.",
+        "Aeropuerto Diego Aracena a 45 km, con traslados frecuentes en bus.",
+        "El terminal rodoviario tiene servicios a Arica, Calama y Antofagasta.",
+        "Se puede recorrer el centro a pie; el casco histórico es compacto.",
+        "Arriendos de bicicletas en la costanera."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Dr. Ernesto Torres Galdames",
+          "numero": "+56 57 240 4400",
+          "detalle": "Hospital regional."
+        }
+      ]
+    },
+    {
+      "id": "antofagasta",
+      "nombre": "Antofagasta",
+      "region": "Región de Antofagasta",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion": "La Perla del Norte, capital minera con costanera y el corazón del desierto más árido del mundo.",
+      "turismo": [
+        {
+          "titulo": "La Portada",
+          "costo": "Gratis",
+          "detalle": "Monumento natural de roca volcánica esculpida por el mar, a 18 km al norte."
+        },
+        {
+          "titulo": "Costanera de Antofagasta",
+          "costo": "Gratis",
+          "detalle": "Paseo marítimo con vista al océano, ideal para trotar al atardecer."
+        },
+        {
+          "titulo": "Museo Regional de Antofagasta",
+          "costo": "Gratis",
+          "detalle": "Historia minera y cultural de la región."
+        },
+        {
+          "titulo": "Ruta de las Iglesias",
+          "costo": "Gratis",
+          "detalle": "Recorrido por templos históricos del centro, incluida la Catedral."
+        },
+        {
+          "titulo": "Expedición al Desierto de Atacama",
+          "costo": "Pago",
+          "detalle": "Full-day a San Pedro de Atacama, Valle de la Luna y geisers del Tatio."
+        }
+      ],
+      "transporte": [
+        "El transporte urbano es de buses (línea 6, 15 principalmente) que cruzan la ciudad.",
+        "Aeropuerto Andrés Sabella a 30 km, con buses a la ciudad.",
+        "Terminal rodoviario con salidas a Calama, Iquique y Santiago.",
+        "El centro y la costanera son caminables.",
+        "Taxis y aplicaciones disponibles en todo el radio urbano."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Regional de Antofagasta",
+          "numero": "+56 55 265 6000",
+          "detalle": "Hospital de alta complejidad."
+        }
+      ]
+    },
+    {
+      "id": "copiapo",
+      "nombre": "Copiapó",
+      "region": "Región de Atacama",
+      "lat": -27.3668,
+      "lon": -70.3322,
+      "descripcion": "Capital minera de Atacama, puerta al Valle de Copiapó y al desierto florido.",
+      "turismo": [
+        {
+          "titulo": "Catedral de Copiapó",
+          "costo": "Gratis",
+          "detalle": "Templo neoclásico del siglo XIX, ícono del casco histórico."
+        },
+        {
+          "titulo": "Museo Minero de Tierra Amarilla",
+          "costo": "Pago",
+          "detalle": "Recorrido por una mina real de cobre a 20 km de la ciudad."
+        },
+        {
+          "titulo": "Desierto Florido (estación)",
+          "costo": "Gratis",
+          "detalle": "Fenómeno natural que cubre el desierto de flores tras lluvias."
+        },
+        {
+          "titulo": "Valle de Copiapó",
+          "costo": "Gratis",
+          "detalle": "Viñedos del desierto y pueblos históricos como Tierra Amarilla."
+        }
+      ],
+      "transporte": [
+        "Colectivos recorren el centro y alrededores.",
+        "Aeródromo cerca de Chamonate para vuelos regionales.",
+        "Terminal de buses con conexiones a Vallenar, La Serena y Santiago.",
+        "El centro es compacto y se recorre fácil a pie.",
+        "Buses rurales al Valle de Copiapó y pueblos mineros."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Regional de Copiapó",
+          "numero": "+56 52 232 5000",
+          "detalle": "Hospital regional de Atacama."
+        }
+      ]
+    },
+    {
+      "id": "la-serena",
+      "nombre": "La Serena",
+      "region": "Región de Coquimbo",
+      "lat": -29.9027,
+      "lon": -71.2519,
+      "descripcion": "Ciudad colonial con iglesias de piedra, playas y el Observatorio Mamalluca.",
+      "turismo": [
+        {
+          "titulo": "Observatorio Mamalluca",
+          "costo": "Pago",
+          "detalle": "Observación astronómica con telescopios, a 50 km del valle de Elqui."
+        },
+        {
+          "titulo": "Playa El Faro",
+          "costo": "Gratis",
+          "detalle": "Playas urbanas de arena fina junto al icónico faro."
+        },
+        {
+          "titulo": "Casco Histórico",
+          "costo": "Gratis",
+          "detalle": "Iglesias de piedra, plaza de armas y arquitectura colonial del siglo XVI."
+        },
+        {
+          "titulo": "Valle de Elqui",
+          "costo": "Gratis",
+          "detalle": "Pueblos mágicos, pisco artesanal y cielos ideales para la astronomía."
+        },
+        {
+          "titulo": "Acuario Yeco",
+          "costo": "Pago",
+          "detalle": "Vida marina de la costa de Coquimbo, en el sector de Península."
+        }
+      ],
+      "transporte": [
+        "Colectivos y micros urbanos recorren La Serena y Coquimbo como un área metropolitana.",
+        "Aeropuerto La Florida a 6 km del centro, con buses y taxis.",
+        "Terminal de buses con conexiones a Ovalle, Vicuña y Santiago.",
+        "Se puede caminar entre la plaza de armas y la playa en 15 minutos.",
+        "Ruta Elqui: buses a Paihuano y Vicuña desde el terminal."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de La Serena",
+          "numero": "+56 51 233 6000",
+          "detalle": "Hospital regional de Coquimbo."
+        }
+      ]
+    },
+    {
+      "id": "valparaiso",
+      "nombre": "Valparaíso",
+      "region": "Región de Valparaíso",
+      "lat": -33.0472,
+      "lon": -71.6127,
+      "descripcion": "Ciudad patrimonio de la humanidad, famosa por sus cerros coloridos, ascensores y arte callejero.",
+      "turismo": [
+        {
+          "titulo": "Cerro Alegre y Concepción",
+          "costo": "Gratis",
+          "detalle": "Sube en ascensor para recorrer callejones, murales y miradores."
+        },
+        {
+          "titulo": "Ascensor Artillería",
+          "costo": "Pago",
+          "detalle": "El clásico funicular 1904 desde el plan hasta el paseo 21 de Mayo."
+        },
+        {
+          "titulo": "La Sebastiana",
+          "costo": "Pago",
+          "detalle": "Casa museo de Pablo Neruda con vista panorámica al puerto."
+        },
+        {
+          "titulo": "Paseo Yugoslavo",
+          "costo": "Gratis",
+          "detalle": "Mirador que une los cerros de la ciudad patrimonio."
+        },
+        {
+          "titulo": "Puerto y Mercado",
+          "costo": "Gratis",
+          "detalle": "Vida portuaria, ferias de artesanía y restaurantes frente al mar."
+        }
+      ],
+      "transporte": [
+        "Ascensores (funculares históricos) conectan el plan con los cerros.",
+        "Metro Valparaíso (MERVAL) une Valparaíso con Viña del Mar hasta Limache.",
+        "Colectivos y trolebuses recorren el plan y cerros periféricos.",
+        "Terminal de buses de Valparaíso con conexiones a todo Chile.",
+        "Se camina mucho: usar calzado cómodo por las escaleras y pendientes."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Carlos Van Buren",
+          "numero": "+56 32 236 1000",
+          "detalle": "Hospital público de referencia."
+        }
+      ]
+    },
+    {
+      "id": "vina-del-mar",
+      "nombre": "Viña del Mar",
+      "region": "Región de Valparaíso",
+      "lat": -33.0153,
+      "lon": -71.5508,
+      "descripcion": "La Ciudad Jardín, con playas, casinos, el reloj de flores y el festival musical más famoso de Chile.",
+      "turismo": [
+        {
+          "titulo": "Playa Reñaca",
+          "costo": "Gratis",
+          "detalle": "La playa más concurrida, con bares, restaurantes y sunset views."
+        },
+        {
+          "titulo": "Reloj de Flores",
+          "costo": "Gratis",
+          "detalle": "Ícono floral construido en 1962 para el Mundial de fútbol."
+        },
+        {
+          "titulo": "Quinta Vergara",
+          "costo": "Gratis",
+          "detalle": "Parque con el Palacio Vergara y su Anfiteatro del Festival."
+        },
+        {
+          "titulo": "Casino Municipal",
+          "costo": "Pago",
+          "detalle": "El casino más tradicional de Chile, junto al jardín de juegos."
+        },
+        {
+          "titulo": "Castillo Wulff",
+          "costo": "Gratis",
+          "detalle": "Castillo de estilo alemán frente al mar, hoy sede cultural."
+        }
+      ],
+      "transporte": [
+        "Metro MERVAL recorre la avenida costera hacia Valparaíso y Limache.",
+        "Colectivos y micros conectan todas las playas y barrios.",
+        "Buses a Santiago salen cada 15 minutos desde el terminal Rodoviario.",
+        "Se puede caminar por la costanera entre el Reloj y el Casino.",
+        "Taxis y apps de transporte cubren toda la ciudad."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Gustavo Fricke",
+          "numero": "+56 32 251 4004",
+          "detalle": "Hospital de la red de salud."
+        }
+      ]
+    },
+    {
+      "id": "santiago",
+      "nombre": "Santiago",
+      "region": "Región Metropolitana",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion": "La capital de Chile: un valle rodeado de cordillera con cultura, gastronomía y una red de metro eficiente.",
+      "turismo": [
+        {
+          "titulo": "Cerro San Cristóbal",
+          "costo": "Gratis",
+          "detalle": "Sube en funicular y visita el santuario y mirador con vista a la cordillera."
+        },
+        {
+          "titulo": "Plaza de Armas y Catedral",
+          "costo": "Gratis",
+          "detalle": "El corazón histórico de Santiago, rodeado de edificios coloniales."
+        },
+        {
+          "titulo": "Museo de Bellas Artes",
+          "costo": "Gratis",
+          "detalle": "Colección de arte chileno en un palacio de 1910 en el Parque Forestal."
+        },
+        {
+          "titulo": "Barrio Lastarria",
+          "costo": "Gratis",
+          "detalle": "Calles con gastronomía, librerías y vida cultural nocturna."
+        },
+        {
+          "titulo": "Sky Costanera",
+          "costo": "Pago",
+          "detalle": "Mirador a 300 m de altura, el más alto de Sudamérica, en Providencia."
+        }
+      ],
+      "transporte": [
+        "Metro de Santiago: 7 líneas que cubren toda la ciudad, con tarjeta bip!.",
+        "Red Metropolitana de Movilidad (buses) en casi todas las comunas.",
+        "La bicicleta es cada vez más popular; hay ciclovías en el centro y Providencia.",
+        "Se puede caminar por el centro histórico y Barrio Lastarria.",
+        "Aeropuerto Arturo Merino Benítez a 26 km con buses 555 y traslados."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Clínico de la U. de Chile",
+          "numero": "+56 2 2978 8000",
+          "detalle": "Centro de referencia nacional."
+        }
+      ]
+    },
+    {
+      "id": "rancagua",
+      "nombre": "Rancagua",
+      "region": "Región del Libertador General Bernardo O'Higgins",
+      "lat": -34.1708,
+      "lon": -70.7444,
+      "descripcion": "Capital agrícola del valle central, a 87 km de Santiago, cuna de la chilenidad y los huasos.",
+      "turismo": [
+        {
+          "titulo": "Plaza de Los Héroes",
+          "costo": "Gratis",
+          "detalle": "Plaza histórica donde se libró la Batalla de Rancagua en 1814."
+        },
+        {
+          "titulo": "Museo Regional de Rancagua",
+          "costo": "Gratis",
+          "detalle": "Casa colonial del siglo XIX que conserva la historia de la región."
+        },
+        {
+          "titulo": "Viña Santa Cruz (Peralillo)",
+          "costo": "Pago",
+          "detalle": "Recorrido por museos temáticos y observatorio astronómico."
+        },
+        {
+          "titulo": "Ruta del Vino Colchagua",
+          "costo": "Pago",
+          "detalle": "Viñedos premiados en Santa Cruz a 45 minutos de la ciudad."
+        }
+      ],
+      "transporte": [
+        "El Tren Rancagua-Express une la ciudad con Santiago en 1 hora.",
+        "Metrotren y buses interurbanos frecuentes hacia la capital.",
+        "Micros urbanas cubren la ciudad y alrededores.",
+        "El centro es compacto y caminable."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Regional de Rancagua",
+          "numero": "+56 72 265 1000",
+          "detalle": "Hospital base de O'Higgins."
+        }
+      ]
+    },
+    {
+      "id": "talca",
+      "nombre": "Talca",
+      "region": "Región del Maule",
+      "lat": -35.4264,
+      "lon": -71.6554,
+      "descripcion": "La capital del Maule, rodeada de viñedos, a 250 km de Santiago, punto de paso a la costa y la cordillera.",
+      "turismo": [
+        {
+          "titulo": "Plaza de Armas de Talca",
+          "costo": "Gratis",
+          "detalle": "Plaza arbolada con la Catedral y los históricos portales."
+        },
+        {
+          "titulo": "Mercado Central de Talca",
+          "costo": "Gratis",
+          "detalle": "Gastronomía típica maulina, ideal para probar el chancho en piedra."
+        },
+        {
+          "titulo": "Ruta del Vino Maule",
+          "costo": "Pago",
+          "detalle": "Viñedos centenarios en San Clemente y el secano interior."
+        },
+        {
+          "titulo": "Termas de Panimávida (Linares)",
+          "costo": "Pago",
+          "detalle": "Centro termal a 40 km, en un entorno de montaña."
+        }
+      ],
+      "transporte": [
+        "Buses interurbanos frecuentes hacia el sur y Santiago.",
+        "Tren Talca-Constitución, uno de los ramales históricos de Chile.",
+        "Colectivos y micros urbanas conectan la ciudad.",
+        "Ruta a la costa (Constitución): buses cada hora."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Regional de Talca",
+          "numero": "+56 71 220 3400",
+          "detalle": "Hospital regional del Maule."
+        }
+      ]
+    },
+    {
+      "id": "concepcion",
+      "nombre": "Concepción",
+      "region": "Región del Biobío",
+      "lat": -36.827,
+      "lon": -73.0503,
+      "descripcion": "Capital del Gran Concepción, ciudad universitaria con ríos, costa y una potente escena musical.",
+      "turismo": [
+        {
+          "titulo": "Plaza de la Independencia",
+          "costo": "Gratis",
+          "detalle": "Plaza histórica con la Catedral y el Edificio de los Portales."
+        },
+        {
+          "titulo": "Parque Ecuador",
+          "costo": "Gratis",
+          "detalle": "Pulmón verde sobre el río Biobío con miradores y senderos."
+        },
+        {
+          "titulo": "Museo de Historia Natural",
+          "costo": "Gratis",
+          "detalle": "Colección paleontológica y natural de la zona."
+        },
+        {
+          "titulo": "Universidad de Concepción",
+          "costo": "Gratis",
+          "detalle": "Campus patrimonial con el mural de O'Higgins en la Casa del Arte."
+        },
+        {
+          "titulo": "Costa de Penco y Lirquén",
+          "costo": "Gratis",
+          "detalle": "Playas y caletas con mariscos frescos a 20 minutos."
+        }
+      ],
+      "transporte": [
+        "Buses urbanos (BioBús) cruzan el Gran Concepción junto a colectivos.",
+        "Aeropuerto Carriel Sur a 7 km del centro.",
+        "Tren local a Talcahuano y estaciones cercanas.",
+        "El centro universitario y comercial es caminable."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Regional Guillermo Grant Benavente",
+          "numero": "+56 41 272 2500",
+          "detalle": "Hospital base del Biobío."
+        }
+      ]
+    },
+    {
+      "id": "temuco",
+      "nombre": "Temuco",
+      "region": "Región de la Araucanía",
+      "lat": -38.7359,
+      "lon": -72.5904,
+      "descripcion": "Capital de la Araucanía, corazón de la cultura mapuche, puerta a los lagos y volcanes del sur.",
+      "turismo": [
+        {
+          "titulo": "Mercado Municipal",
+          "costo": "Gratis",
+          "detalle": "Artesanía mapuche en plata, lana y madera."
+        },
+        {
+          "titulo": "Cerro Ñielol",
+          "costo": "Pago",
+          "detalle": "Reserva natural con senderos, en plena ciudad."
+        },
+        {
+          "titulo": "Museo Regional de la Araucanía",
+          "costo": "Gratis",
+          "detalle": "Historia del pueblo mapuche y la colonización en el sur."
+        },
+        {
+          "titulo": "Lago Villarrica (a 1h)",
+          "costo": "Pago",
+          "detalle": "Excursión clásica: el volcán más activo de Sudamérica."
+        }
+      ],
+      "transporte": [
+        "Bus interurbano a todas las ciudades del sur y a Santiago.",
+        "Micros y colectivos urbanos con amplia cobertura.",
+        "Aeropuerto Maquehue a 5 km del centro.",
+        "El centro es compacto y caminable."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Regional Dr. Hernán Henríquez Aravena",
+          "numero": "+56 45 296 3300",
+          "detalle": "Hospital de la Araucanía."
+        }
+      ]
+    },
+    {
+      "id": "valdivia",
+      "nombre": "Valdivia",
+      "region": "Región de Los Ríos",
+      "lat": -39.8142,
+      "lon": -73.2459,
+      "descripcion": "Ciudad de los ríos y cervezas artesanales, reconstruida con tradición alemana tras el terremoto de 1960.",
+      "turismo": [
+        {
+          "titulo": "Mercado Fluvial",
+          "costo": "Gratis",
+          "detalle": "Lonkos en el río Calle-Calle con pescados y mariscos frescos."
+        },
+        {
+          "titulo": "Fuerte Niebla",
+          "costo": "Pago",
+          "detalle": "Fuerte español del siglo XVII con vista a la bahía de Corral."
+        },
+        {
+          "titulo": "Costanera y Torreón del Barro",
+          "costo": "Gratis",
+          "detalle": "Paseo por el río con el mítico Torreón español."
+        },
+        {
+          "titulo": "Cervecerías Kunstmann y Austral",
+          "costo": "Pago",
+          "detalle": "La capital de la cerveza artesanal chilena, tours de fabricación."
+        },
+        {
+          "titulo": "Parque Saval",
+          "costo": "Gratis",
+          "detalle": "Selva valdiviana en plena ciudad, ideal para picnic."
+        }
+      ],
+      "transporte": [
+        "Se recorre a pie por el centro y costanera.",
+        "Barcazas (lanchas) cruzan el río al sector de Isla Teja.",
+        "Aeropuerto Pichoy a 30 km, con buses de conexión.",
+        "Terminal de buses con conexiones a Temuco, Osorno y Pto. Montt."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Base de Valdivia",
+          "numero": "+56 63 229 8000",
+          "detalle": "Hospital regional de Los Ríos."
+        }
+      ]
+    },
+    {
+      "id": "puerto-montt",
+      "nombre": "Puerto Montt",
+      "region": "Región de Los Lagos",
+      "lat": -41.4689,
+      "lon": -72.9411,
+      "descripcion": "Puerta a la Patagonia chilena, con el volcán Osorno, el lago Llanquihue y los canales australes.",
+      "turismo": [
+        {
+          "titulo": "Barrio Puerto y Mercado Angelmó",
+          "costo": "Gratis",
+          "detalle": "Gastronomía marina y artesanía en madera en el mercado más famoso del sur."
+        },
+        {
+          "titulo": "Lago Llanquihue y Puerto Varas",
+          "costo": "Gratis",
+          "detalle": "Vista al volcán Osorno, ciudad alemana a 20 minutos."
+        },
+        {
+          "titulo": "Parque Nacional Alerce Andino",
+          "costo": "Pago",
+          "detalle": "Bosque de alerces milenarios con senderos."
+        },
+        {
+          "titulo": "Isla Tenglo",
+          "costo": "Gratis",
+          "detalle": "Travesía en lancha, senderos y vista panorámica del puerto."
+        },
+        {
+          "titulo": "Cruce a Chiloé",
+          "costo": "Pago",
+          "detalle": "La Ruta CH-5 termina en Pargua (ferry a la Isla Grande de Chiloé)."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto El Tepual a 16 km, con buses a la ciudad.",
+        "Terminal de buses con salidas a toda la Patagonia (Chile y Argentina).",
+        "Ferries desde Pargua hacia Chiloé y desde Puerto Montt hacia Chaitén.",
+        "Micros y colectivos urbanos conectan Angelmó con el centro."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Puerto Montt",
+          "numero": "+56 65 248 6000",
+          "detalle": "Hospital regional de Los Lagos."
+        }
+      ]
+    },
+    {
+      "id": "coyhaique",
+      "nombre": "Coyhaique",
+      "region": "Región de Aysén",
+      "lat": -45.5712,
+      "lon": -72.0663,
+      "descripcion": "Capital de la Patagonia norte, rodeada de ríos y montañas, base para la Carretera Austral.",
+      "turismo": [
+        {
+          "titulo": "Catedral de Mármol",
+          "costo": "Pago",
+          "detalle": "Formaciones de mármol en el Lago General Carrera, a 3 horas."
+        },
+        {
+          "titulo": "Reserva Coyhaique",
+          "costo": "Gratis",
+          "detalle": "Bosques nativos y miradores a 3 km del centro."
+        },
+        {
+          "titulo": "Villa Cerro Castillo",
+          "costo": "Gratis",
+          "detalle": "Montañas icónicas de la Carretera Austral, a 80 km al norte."
+        },
+        {
+          "titulo": "Río Simpson",
+          "costo": "Gratis",
+          "detalle": "Pesca deportiva y picnic en orillas del río."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto de Balmaceda a 55 km con buses coordinados.",
+        "La Carretera Austral (Ruta 7) es el eje vial; se arrienda auto o se usan buses patagónicos.",
+        "Taxis y colectivos en el centro.",
+        "Para destinos lejanos: buses rurales desde el terminal."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Regional de Coyhaique",
+          "numero": "+56 67 241 1200",
+          "detalle": "Hospital de Aysén."
+        }
+      ]
+    },
+    {
+      "id": "punta-arenas",
+      "nombre": "Punta Arenas",
+      "region": "Región de Magallanes",
+      "lat": -53.1638,
+      "lon": -70.9171,
+      "descripcion": "La ciudad más austral del mundo, puerta a la Patagonia y a la Antártica, con historia de estancieros y marinos.",
+      "turismo": [
+        {
+          "titulo": "Parque del Estrecho de Magallanes",
+          "costo": "Pago",
+          "detalle": "Exhibición del paso histórico de Magallanes y vista al estrecho."
+        },
+        {
+          "titulo": "Reserva Nacional Magallanes",
+          "costo": "Gratis",
+          "detalle": "Senderos entre lengas y ñirres, a 10 minutos del centro."
+        },
+        {
+          "titulo": "Plaza Muñoz Gamero",
+          "costo": "Gratis",
+          "detalle": "Plaza histórica rodeada de palacetes de los estancieros."
+        },
+        {
+          "titulo": "Museo Nao Victoria",
+          "costo": "Pago",
+          "detalle": "Réplicas de barcos históricos, incluido el Beagle de Darwin."
+        },
+        {
+          "titulo": "Cerro de la Cruz",
+          "costo": "Gratis",
+          "detalle": "Mirador con vista completa de la ciudad y el estrecho."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto Carlos Ibáñez del Campo a 20 km de la ciudad.",
+        "Buses urbanos y taxis en el radio céntrico.",
+        "La ciudad se camina fácilmente; el centro es limitado.",
+        "Para Torres del Paine y Tierra del Fuego: buses desde el terminal."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Clínico Magallanes",
+          "numero": "+56 61 220 5000",
+          "detalle": "Hospital regional de Magallanes."
+        }
+      ]
+    }
+  ]
+}

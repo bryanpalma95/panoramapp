@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PanoramApp: guía urbana de Chile — turismo, transporte, emergencia y panoramas en tu ciudad" />
+  <title>PanoramApp 🎉 Guía de tu ciudad</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera-inner">
+      <h1>🎉 PanoramApp</h1>
+      <p class="tagline">Guía urbana de Chile</p>
+      <div class="cabecera-acciones">
+        <button id="btn-tema" class="btn-tema" title="Cambiar tema">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="banner" class="banner oculto"></div>
+
+  <main class="contenedor">
+    <!-- Selector de ciudad -->
+    <section class="selector-urbano" aria-label="Seleccionar ciudad">
+      <label for="selector-ciudad">📍 Ciudad:</label>
+      <select id="selector-ciudad" aria-label="Elige una ciudad"></select>
+    </section>
+
+    <!-- Tabs de sección -->
+    <nav class="tabs" aria-label="Secciones de la guía">
+      <button class="tab-btn activo" data-seccion="turismo">🏛️ Turismo</button>
+      <button class="tab-btn" data-seccion="transporte">🚍 Transporte</button>
+      <button class="tab-btn" data-seccion="emergencia">🆘 Emergencia</button>
+      <button class="tab-btn" data-seccion="clima">🌤️ Clima</button>
+      <button class="tab-btn" data-seccion="feriados">📅 Feriados</button>
+      <button class="tab-btn" data-seccion="panoramas">🎉 Panoramas</button>
+    </nav>
+
+    <!-- Cargando -->
+    <div id="cargando" class="cargando">
+      <div class="spinner"></div>
+      <p>Cargando…</p>
+    </div>
+
+    <!-- Contenido -->
+    <div id="contenido" class="oculto">
+      <div id="ciudad-header" class="ciudad-header"></div>
+      <section id="seccion-contenido" class="seccion-contenido" aria-live="polite"></section>
+    </div>
+  </main>
+
+  <!-- Modal detalle -->
+  <div id="modal" class="modal oculto" role="dialog" aria-modal="true" aria-label="Detalle del panorama">
+    <div class="modal-caja">
+      <div id="modal-cuerpo"></div>
+    </div>
+  </div>
+
+  <footer class="pie">
+    <p>PanoramApp · Guía urbana de Chile · Hecho con ❤️</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/apis.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

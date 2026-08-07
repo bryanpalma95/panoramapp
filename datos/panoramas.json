@@ -1,0 +1,126 @@
+{
+  "actualizado": "2026-08-07T14:53:11.308712",
+  "ciudad": "Chile",
+  "panoramas": [
+    {
+      "id": "clima-1",
+      "titulo": "🌤️ Mejor día en Arica",
+      "categoria": "Aire libre",
+      "precio": false,
+      "descripcion": "Pronóstico favorable: ☀️ Despejado y 20.0°C. Ideal para recorrer Arica.",
+      "ubicacion": "Arica, Chile",
+      "fecha": "2026-08-07T10:00:00-04:00",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=panoramas+Arica",
+      "fuente": "Pronóstico del clima"
+    },
+    {
+      "id": "clima-2",
+      "titulo": "🌤️ Mejor día en Arica",
+      "categoria": "Aire libre",
+      "precio": false,
+      "descripcion": "Pronóstico favorable: ☀️ Despejado y 20.5°C. Ideal para recorrer Arica.",
+      "ubicacion": "Arica, Chile",
+      "fecha": "2026-08-08T10:00:00-04:00",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=panoramas+Arica",
+      "fuente": "Pronóstico del clima"
+    },
+    {
+      "id": "clima-3",
+      "titulo": "🌤️ Mejor día en Arica",
+      "categoria": "Aire libre",
+      "precio": false,
+      "descripcion": "Pronóstico favorable: ☀️ Despejado y 20.8°C. Ideal para recorrer Arica.",
+      "ubicacion": "Arica, Chile",
+      "fecha": "2026-08-09T10:00:00-04:00",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=panoramas+Arica",
+      "fuente": "Pronóstico del clima"
+    },
+    {
+      "id": "clima-4",
+      "titulo": "🌤️ Mejor día en Iquique",
+      "categoria": "Aire libre",
+      "precio": false,
+      "descripcion": "Pronóstico favorable: ☀️ Despejado y 20.5°C. Ideal para recorrer Iquique.",
+      "ubicacion": "Iquique, Chile",
+      "fecha": "2026-08-08T10:00:00-04:00",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=panoramas+Iquique",
+      "fuente": "Pronóstico del clima"
+    },
+    {
+      "id": "clima-5",
+      "titulo": "🌤️ Mejor día en Iquique",
+      "categoria": "Aire libre",
+      "precio": false,
+      "descripcion": "Pronóstico favorable: ☀️ Despejado y 20.7°C. Ideal para recorrer Iquique.",
+      "ubicacion": "Iquique, Chile",
+      "fecha": "2026-08-09T10:00:00-04:00",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=panoramas+Iquique",
+      "fuente": "Pronóstico del clima"
+    },
+    {
+      "id": "clima-6",
+      "titulo": "🌤️ Mejor día en Antofagasta",
+      "categoria": "Aire libre",
+      "precio": false,
+      "descripcion": "Pronóstico favorable: ☀️ Despejado y 19.8°C. Ideal para recorrer Antofagasta.",
+      "ubicacion": "Antofagasta, Chile",
+      "fecha": "2026-08-07T10:00:00-04:00",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=panoramas+Antofagasta",
+      "fuente": "Pronóstico del clima"
+    },
+    {
+      "id": "tour-7",
+      "titulo": "🏛️ Morro de Arica (Arica)",
+      "categoria": "Turismo",
+      "precio": false,
+      "descripcion": "Mirador histórico con vista panorámica a la ciudad y el océano.",
+      "ubicacion": "Arica, Chile",
+      "fecha": "",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=Morro+de+Arica+Arica",
+      "fuente": "Guía turística"
+    },
+    {
+      "id": "tour-8",
+      "titulo": "🏛️ Playa Cavancha (Iquique)",
+      "categoria": "Turismo",
+      "precio": false,
+      "descripcion": "La playa más popular de la ciudad, con paseo peatonal y deportes náuticos.",
+      "ubicacion": "Iquique, Chile",
+      "fecha": "",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=Playa+Cavancha+Iquique",
+      "fuente": "Guía turística"
+    },
+    {
+      "id": "tour-9",
+      "titulo": "🏛️ La Portada (Antofagasta)",
+      "categoria": "Turismo",
+      "precio": false,
+      "descripcion": "Monumento natural de roca volcánica esculpida por el mar, a 18 km al norte.",
+      "ubicacion": "Antofagasta, Chile",
+      "fecha": "",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=La+Portada+Antofagasta",
+      "fuente": "Guía turística"
+    },
+    {
+      "id": "tour-10",
+      "titulo": "🏛️ Catedral de Copiapó (Copiapó)",
+      "categoria": "Turismo",
+      "precio": false,
+      "descripcion": "Templo neoclásico del siglo XIX, ícono del casco histórico.",
+      "ubicacion": "Copiapó, Chile",
+      "fecha": "",
+      "imagen": "",
+      "url": "https://www.google.com/search?q=Catedral+de+Copiapó+Copiapó",
+      "fuente": "Guía turística"
+    }
+  ]
+}

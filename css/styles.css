@@ -1,0 +1,784 @@
+/* ── PanoramApp — Estilos ───────────────────────────────────────────────────── */
+:root {
+  --bg: #f4f6fb;
+  --superficie: #ffffff;
+  --texto: #1f2937;
+  --texto-suave: #6b7280;
+  --acento: #7c3aed;
+  --acento-claro: #ede9fe;
+  --borde: #e5e7eb;
+  --sombra: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --radio: 16px;
+  --gratis: #059669;
+  --pago: #d97706;
+  --error: #b91c1c;
+}
+
+body.oscuro {
+  --bg: #111827;
+  --superficie: #1f2937;
+  --texto: #f9fafb;
+  --texto-suave: #9ca3af;
+  --acento: #a78bfa;
+  --acento-claro: #312e81;
+  --borde: #374151;
+  --sombra: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--texto);
+  line-height: 1.5;
+  transition: background 0.3s, color 0.3s;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Cabecera ───────────────────────────────────────────────────────────────── */
+.cabecera {
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  color: #fff;
+  padding: 1.25rem 1rem;
+  box-shadow: var(--sombra);
+}
+
+.cabecera-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cabecera h1 { font-size: 1.6rem; }
+
+.tagline { opacity: 0.9; font-size: 0.95rem; }
+
+.cabecera-acciones {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.fuente-info {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.btn-tema {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn-tema:hover { background: rgba(255, 255, 255, 0.35); transform: scale(1.05); }
+
+/* ── Banner ─────────────────────────────────────────────────────────────────── */
+.banner {
+  max-width: 1200px;
+  margin: 0.75rem auto 0;
+  padding: 0.6rem 1rem;
+  background: var(--acento-claro);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  font-size: 0.9rem;
+  width: calc(100% - 2rem);
+}
+
+.banner.error {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: var(--error);
+}
+
+.oculto { display: none !important; }
+
+/* ── Contenedor principal ───────────────────────────────────────────────────── */
+.contenedor {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+/* ── Controles ──────────────────────────────────────────────────────────────── */
+.controles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.busqueda input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--borde);
+  border-radius: var(--radio);
+  font-size: 1rem;
+  background: var(--superficie);
+  color: var(--texto);
+  transition: border-color 0.2s;
+}
+
+.busqueda input:focus {
+  outline: none;
+  border-color: var(--acento);
+}
+
+.filtros {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filtros select {
+  padding: 0.6rem 0.85rem;
+  border: 2px solid var(--borde);
+  border-radius: 12px;
+  background: var(--superficie);
+  color: var(--texto);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.chk-gratis {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  background: var(--superficie);
+  border: 2px solid var(--borde);
+  padding: 0.5rem 0.85rem;
+  border-radius: 12px;
+}
+
+/* ── Selector de ciudad ─────────────────────────────────────────────────────── */
+.selector-urbano {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 0.85rem 1rem;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  font-weight: 600;
+}
+
+.selector-urbano label { white-space: nowrap; }
+
+.selector-urbano select {
+  flex: 1;
+  padding: 0.6rem 0.85rem;
+  border: 2px solid var(--borde);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--texto);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ── Tabs de sección ────────────────────────────────────────────────────────── */
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+  padding: 0.6rem 1.1rem;
+  border: 2px solid var(--borde);
+  border-radius: 999px;
+  background: var(--superficie);
+  color: var(--texto);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.15s;
+}
+
+.tab-btn:hover { transform: translateY(-2px); border-color: var(--acento); }
+
+.tab-btn.activo {
+  background: var(--acento);
+  color: #fff;
+  border-color: var(--acento);
+}
+
+/* ── Cabecera de ciudad ─────────────────────────────────────────────────────── */
+.ciudad-header {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, var(--acento), #4f46e5);
+  color: #fff;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.ciudad-header h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.region-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.ciudad-descripcion {
+  margin-top: 0.5rem;
+  opacity: 0.95;
+  font-size: 0.95rem;
+}
+
+/* ── Secciones ──────────────────────────────────────────────────────────────── */
+.seccion-contenido { animation: aparecer 0.3s ease; }
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.seccion-titulo {
+  margin-bottom: 1.25rem;
+}
+
+.seccion-titulo h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.15rem;
+}
+
+.seccion-titulo p { color: var(--texto-suave); }
+
+/* ── Tarjetas de turismo ────────────────────────────────────────────────────── */
+.turismo-card { cursor: default; }
+
+.num-sitio {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--acento);
+  opacity: 0.4;
+}
+
+/* ── Transporte ─────────────────────────────────────────────────────────────── */
+.lista-transporte {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.item-transporte {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 1rem 1.25rem;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+.icono-transporte {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.item-transporte p { color: var(--texto); }
+
+/* ── Emergencia ─────────────────────────────────────────────────────────────── */
+.emergencia-card {
+  text-decoration: none;
+  color: inherit;
+  background: var(--superficie);
+  border: 2px solid var(--borde);
+}
+
+.emergencia-card:hover { border-color: var(--error); }
+
+.emergencia-numero {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--error);
+  line-height: 1.1;
+}
+
+.emergencia-nombre {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-top: 0.3rem;
+}
+
+.emergencia-detalle {
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  flex: 1;
+}
+
+.emergencia-llamar {
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  text-align: center;
+  background: var(--error);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.otros-contactos {
+  margin-top: 2rem;
+}
+
+.otros-contactos h4 {
+  margin-bottom: 0.75rem;
+  color: var(--texto-suave);
+  font-size: 1rem;
+}
+
+.item-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.1rem;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+}
+
+.item-contacto p {
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+}
+
+/* ── Estadísticas ───────────────────────────────────────────────────────────── */
+.estadisticas {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.estadisticas span {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* ── Cargando ───────────────────────────────────────────────────────────────── */
+.cargando {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 3rem 0;
+  color: var(--texto-suave);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--borde);
+  border-top-color: var(--acento);
+  border-radius: 50%;
+  animation: girar 0.8s linear infinite;
+}
+
+@keyframes girar {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Clima ─────────────────────────────────────────────────────────────────── */
+.clima-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.clima-card {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 1.1rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.clima-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra);
+}
+
+.clima-card.hoy {
+  border-color: var(--acento);
+  background: var(--acento-claro);
+}
+
+.clima-dia {
+  font-weight: 800;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+}
+
+.clima-fecha {
+  color: var(--texto-suave);
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.clima-icono {
+  font-size: 2.2rem;
+  margin: 0.6rem 0;
+}
+
+.clima-temps {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.clima-temps .max { color: var(--pago); }
+.clima-temps .min { color: var(--texto-suave); }
+
+.clima-lluvia {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+}
+
+/* ── Feriados ──────────────────────────────────────────────────────────────── */
+.feriados-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.feriado-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.25rem;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feriado-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--sombra);
+}
+
+.feriado-fecha-mes {
+  min-width: 42px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--acento);
+  background: var(--acento-claro);
+  padding: 0.35rem 0.4rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.feriado-dia {
+  min-width: 42px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+  background: var(--acento);
+  padding: 0.3rem 0.4rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.feriado-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.feriado-info strong {
+  font-size: 1.05rem;
+}
+
+.feriado-info span {
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+/* ── Grid de tarjetas ───────────────────────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.tarjeta {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra);
+}
+
+.tarjeta-img {
+  position: relative;
+  height: 160px;
+  background: var(--acento-claro);
+  overflow: hidden;
+}
+
+.tarjeta-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sin-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.btn-fav {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  z-index: 2;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-fav:hover { transform: scale(1.15); }
+
+.btn-fav.activo { animation: latido 0.3s; }
+
+@keyframes latido {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.tag-gratis { background: #d1fae5; color: var(--gratis); }
+.tag-pago { background: #fef3c7; color: var(--pago); }
+
+.tag.fuente {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  z-index: 2;
+}
+
+.tarjeta-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  flex: 1;
+}
+
+.tarjeta-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cat { color: var(--texto-suave); font-size: 0.8rem; }
+
+.tarjeta h3 {
+  font-size: 1.05rem;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.fecha, .ubicacion { color: var(--texto-suave); font-size: 0.85rem; }
+
+.descripcion {
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+  margin-top: auto;
+}
+
+/* ── Estado vacío ───────────────────────────────────────────────────────────── */
+.vacio {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--texto-suave);
+  font-size: 1.1rem;
+}
+
+/* ── Modal ──────────────────────────────────────────────────────────────────── */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+.modal.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-caja {
+  background: var(--superficie);
+  border-radius: var(--radio);
+  max-width: 560px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.modal-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  max-height: 260px;
+  object-fit: cover;
+}
+
+.modal-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.modal-caja h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+}
+
+.modal-caja p { margin-bottom: 0.5rem; }
+
+.modal-desc {
+  color: var(--texto-suave);
+  margin-top: 0.75rem;
+}
+
+.modal-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+}
+
+.btn {
+  padding: 0.6rem 1.1rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.btn:hover { transform: translateY(-2px); opacity: 0.9; }
+
+.btn-primario { background: var(--acento); color: #fff; }
+
+.btn-secundario {
+  background: var(--acento-claro);
+  color: var(--texto);
+}
+
+.btn-cerrar {
+  background: var(--borde);
+  color: var(--texto);
+  margin-left: auto;
+}
+
+/* ── Pie ────────────────────────────────────────────────────────────────────── */
+.pie {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--borde);
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .cabecera h1 { font-size: 1.3rem; }
+  .cabecera-inner { flex-direction: column; align-items: flex-start; }
+  .filtros { flex-direction: column; align-items: stretch; }
+  .filtros select { width: 100%; }
+  .chk-gratis { justify-content: center; }
+  .grid { grid-template-columns: 1fr; }
+}

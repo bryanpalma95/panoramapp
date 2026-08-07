@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Sistema
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Entornos
+.env
+.venv/
+venv/

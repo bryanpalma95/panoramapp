@@ -1,0 +1,18 @@
+{
+  "actualizado": "2026-08-07T14:53:11.308712",
+  "fuente": "respaldo",
+  "feriados": [
+    {
+      "nombre": "Año Nuevo",
+      "fecha": "2026-01-01"
+    },
+    {
+      "nombre": "Navidad",
+      "fecha": "2026-12-25"
+    },
+    {
+      "nombre": "Fiestas Patrias",
+      "fecha": "2026-09-18"
+    }
+  ]
+}
