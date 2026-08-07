@@ -1,3 +1,4 @@
+
 // ── PanoramApp — Guía de ciudades de Chile ─────────────────────────────────
 (() => {
   "use strict";
@@ -48,7 +49,7 @@
       cambiarCiudad(ciudadId);
 
       const seccionGuardada = localStorage.getItem(LS_SECCION);
-      if (["turismo", "transporte", "emergencia", "clima", "feriados", "panoramas"].includes(seccionGuardada)) {
+      if (["turismo", "transporte", "emergencia", "clima", "feriados", "panoramas", "servicios"].includes(seccionGuardada)) {
         cambiarSeccion(seccionGuardada);
       }
 
@@ -151,6 +152,9 @@
         break;
       case "panoramas":
         renderizarPanoramas();
+        break;
+      case "servicios":
+        renderizarServicios();
         break;
       default:
         seccion.innerHTML = "";
@@ -611,6 +615,23 @@
     document.body.style.overflow = "";
   }
 
+  // ── Servicios (directorio turístico) ─────────────────────────────────────
+  function renderizarServicios() {
+    const seccion = $("#seccion-contenido");
+    if (!seccion) return;
+    const c = estado.ciudadActual;
+
+    seccion.innerHTML = `
+      <div class="seccion-titulo">
+        <h3>🛠️ Servicios turísticos</h3>
+        <p>Hoteles, restaurantes, transporte y más en ${c.nombre}</p>
+      </div>
+      <div class="iframe-servicios">
+        <iframe src="servicios/index.html?ciudad=${encodeURIComponent(c.id)}" title="Directorio de servicios turísticos" loading="lazy"></iframe>
+      </div>
+    `;
+  }
+
   // ── Controles generales ───────────────────────────────────────────────────
   function configurarControles() {
     $$(".tab-btn").forEach(b => {
@@ -618,6 +639,22 @@
     });
 
     $("#btn-tema")?.addEventListener("click", toggleTema);
+    $("#btn-geo")?.addEventListener("click", () => {
+      if (!navigator.geolocation) return mostrarMensaje("Tu navegador no soporta geolocalización 🙁", true);
+      mostrarMensaje("📡 Buscando tu ubicación…");
+      navigator.geolocation.getCurrentPosition(pos => {
+        let mejor = null, mejorDist = Infinity;
+        estado.ciudades.forEach(ciudad => {
+          const d = Math.hypot(ciudad.lat - pos.coords.latitude, ciudad.lon - pos.coords.longitude);
+          if (d < mejorDist) { mejorDist = d; mejor = ciudad; }
+        });
+        if (mejor) {
+          cambiarCiudad(mejor.id);
+          mostrarMensaje(`📍 Estás cerca de ${mejor.nombre} — te mostramos esa ciudad`);
+          setTimeout(() => { const b = $("#banner"); if (b) b.classList.add("oculto"); }, 4000);
+        }
+      }, () => mostrarMensaje("No se pudo obtener tu ubicación 🙁", true), { timeout: 10000 });
+    });
 
     document.addEventListener("keydown", e => {
       if (e.key === "Escape" && !$("#modal").classList.contains("oculto")) cerrarModal();

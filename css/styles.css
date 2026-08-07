@@ -782,3 +782,7 @@ body {
   .chk-gratis { justify-content: center; }
   .grid { grid-template-columns: 1fr; }
 }
+/* Servicios iframe */
+.iframe-servicios{width:100%;border-radius:16px;overflow:hidden;background:var(--superficie);box-shadow:var(--sombra);border:1px solid var(--borde);}
+.iframe-servicios iframe{width:100%;height:1200px;border:none;display:block;}
+@media (max-width:640px){.iframe-servicios iframe{height:1100px;} .tabs{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;} .tabs::-webkit-scrollbar{display:none;} .cabecera-acciones{gap:0.5rem;} .btn-tema{font-size:1rem;padding:0.4rem 0.6rem;}}
