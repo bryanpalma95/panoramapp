@@ -621,13 +621,35 @@
     if (!seccion) return;
     const c = estado.ciudadActual;
 
+    const datos = (typeof SERVICIOS_INICIALES !== "undefined") ? SERVICIOS_INICIALES : [];
+    const servicios = datos.filter(s => !s.city || s.city === c.id);
+
+    const iconos = {hoteles:"🏨",restaurantes:"🍽️",transporte:"🚍",tiendas:"🛍️",supermercados:"🛒",actividades:"🎯",agencias:"🕴️",atractivos:"🏛️",eventos:"🎪",servicios:"🛠️"};
+    const esc = t => { const d = document.createElement("div"); d.textContent = t || ""; return d.innerHTML; };
+
+    const tarjetas = servicios.map(s => `
+      <article class="servicio-card">
+        <div class="servicio-card-head">
+          <span class="servicio-icono">${iconos[s.category] || "📍"}</span>
+          <span class="servicio-categoria">${esc(s.category)}</span>
+        </div>
+        <h4>${esc(s.name)}</h4>
+        ${s.address ? `<p class="servicio-dir">📍 ${esc(s.address)}</p>` : ""}
+        ${s.phone ? `<p class="servicio-tel">📞 <a href="tel:${esc(s.phone)}">${esc(s.phone)}</a></p>` : ""}
+        <div class="servicio-acciones">
+          ${s.website ? `<a class="btn btn-primario btn-sm" href="${esc(s.website)}" target="_blank" rel="noopener">🌐 Sitio web</a>` : ""}
+          ${s.phone ? `<a class="btn btn-secundario btn-sm" href="tel:${esc(s.phone)}">📞 Llamar</a>` : ""}
+        </div>
+      </article>
+    `).join("");
+
     seccion.innerHTML = `
       <div class="seccion-titulo">
         <h3>🛠️ Servicios turísticos</h3>
-        <p>Hoteles, restaurantes, transporte y más en ${c.nombre}</p>
+        <p>${servicios.length} servicios disponibles en ${c.nombre}</p>
       </div>
-      <div class="iframe-servicios">
-        <iframe src="servicios/index.html?ciudad=${encodeURIComponent(c.id)}" title="Directorio de servicios turísticos" loading="lazy"></iframe>
+      <div class="servicios-grid">
+        ${tarjetas || '<p class="sin-resultados">No hay servicios registrados para esta ciudad.</p>'}
       </div>
     `;
   }
