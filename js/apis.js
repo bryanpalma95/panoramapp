@@ -112,7 +112,7 @@ async function fetchLocal() {
   return (data.panoramas || [])
     .map(p => ({ ...p, fuente: "Local" }))
     .filter(p => {
-      const pCiudad = _normalizar(p.ciudad || ciudadRaiz);
+      const pCiudad = _normalizar(p.ciudad || p.ubicacion || ciudadRaiz);
       return !ciudadId || !pCiudad || pCiudad.includes(ciudadId);
     });
 }
