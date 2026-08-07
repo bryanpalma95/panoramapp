@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-08-07T14:53:11.254356",
+  "actualizado": "2026-08-07T15:26:11.163334",
   "fuente": "Open-Meteo (gratis, sin API key)",
   "ciudades": {
     "arica": {
       "latitude": -18.453428,
       "longitude": -70.27399,
-      "generationtime_ms": 0.12004375457763672,
+      "generationtime_ms": 0.1494884490966797,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -29,22 +29,22 @@
           3,
           3,
           3,
-          51,
+          3,
           3
         ],
         "temperature_2m_max": [
-          20.0,
-          20.5,
-          20.8,
+          20.4,
+          19.9,
           20.9,
-          23.8
+          21.1,
+          23.6
         ],
         "temperature_2m_min": [
           16.3,
-          16.0,
+          15.4,
           15.6,
-          15.1,
-          16.5
+          15.4,
+          16.7
         ],
         "precipitation_probability_max": [
           0,
@@ -58,7 +58,7 @@
     "iquique": {
       "latitude": -20.210897,
       "longitude": -70.14044,
-      "generationtime_ms": 1.936793327331543,
+      "generationtime_ms": 0.2586841583251953,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -83,21 +83,21 @@
           3,
           3,
           3,
-          3
+          51
         ],
         "temperature_2m_max": [
-          19.8,
-          20.5,
+          19.7,
           20.7,
-          21.2,
-          22.2
+          20.5,
+          21.3,
+          23.6
         ],
         "temperature_2m_min": [
           15.1,
-          13.4,
-          15.1,
-          16.7,
-          18.0
+          13.7,
+          15.0,
+          17.0,
+          18.4
         ],
         "precipitation_probability_max": [
           4,
@@ -111,7 +111,7 @@
     "antofagasta": {
       "latitude": -23.725836,
       "longitude": -70.42239,
-      "generationtime_ms": 0.22041797637939453,
+      "generationtime_ms": 0.21588802337646484,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -140,17 +140,17 @@
         ],
         "temperature_2m_max": [
           19.8,
-          19.8,
+          20.0,
           18.2,
-          19.1,
-          19.7
+          19.4,
+          20.1
         ],
         "temperature_2m_min": [
           15.4,
-          14.3,
-          13.8,
-          15.2,
-          15.8
+          13.9,
+          14.1,
+          15.3,
+          16.2
         ],
         "precipitation_probability_max": [
           0,
@@ -164,7 +164,7 @@
     "copiapo": {
       "latitude": -27.38137,
       "longitude": -70.2905,
-      "generationtime_ms": 0.11706352233886719,
+      "generationtime_ms": 0.20694732666015625,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -189,21 +189,21 @@
           3,
           3,
           3,
-          53
+          51
         ],
         "temperature_2m_max": [
-          23.1,
-          23.9,
-          24.1,
+          23.3,
+          24.0,
+          24.6,
           22.6,
-          19.7
+          22.8
         ],
         "temperature_2m_min": [
-          10.8,
-          9.6,
+          11.1,
+          10.1,
           11.7,
-          9.1,
-          10.8
+          8.8,
+          11.2
         ],
         "precipitation_probability_max": [
           0,
@@ -217,7 +217,7 @@
     "la-serena": {
       "latitude": -29.912127,
       "longitude": -71.245636,
-      "generationtime_ms": 0.14960765838623047,
+      "generationtime_ms": 0.17833709716796875,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -242,21 +242,21 @@
           3,
           3,
           3,
-          51
+          53
         ],
         "temperature_2m_max": [
-          16.6,
-          17.0,
-          15.9,
-          14.2,
-          14.8
+          16.1,
+          17.1,
+          15.7,
+          14.7,
+          15.4
         ],
         "temperature_2m_min": [
-          9.8,
+          9.1,
           6.7,
-          5.5,
-          8.2,
-          8.2
+          4.9,
+          7.3,
+          8.6
         ],
         "precipitation_probability_max": [
           4,
@@ -270,7 +270,7 @@
     "valparaiso": {
       "latitude": -33.075573,
       "longitude": -71.64618,
-      "generationtime_ms": 0.12683868408203125,
+      "generationtime_ms": 0.1468658447265625,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -292,24 +292,24 @@
         ],
         "weather_code": [
           3,
-          53,
+          80,
           3,
           3,
-          3
+          51
         ],
         "temperature_2m_max": [
-          13.2,
           13.3,
-          13.1,
           13.3,
-          12.5
+          12.9,
+          13.3,
+          13.2
         ],
         "temperature_2m_min": [
           7.7,
-          7.4,
-          7.5,
-          8.6,
-          9.1
+          7.3,
+          7.3,
+          7.9,
+          8.6
         ],
         "precipitation_probability_max": [
           0,
@@ -323,7 +323,7 @@
     "vina-del-mar": {
       "latitude": -32.934975,
       "longitude": -71.47058,
-      "generationtime_ms": 0.09524822235107422,
+      "generationtime_ms": 0.09608268737792969,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -345,24 +345,24 @@
         ],
         "weather_code": [
           3,
-          51,
           3,
           3,
-          3
+          3,
+          51
         ],
         "temperature_2m_max": [
+          14.5,
           14.4,
-          14.3,
-          14.2,
-          14.3,
-          12.7
+          14.0,
+          14.1,
+          11.9
         ],
         "temperature_2m_min": [
           6.0,
-          5.9,
-          4.7,
-          5.0,
-          7.2
+          5.7,
+          4.5,
+          4.5,
+          5.8
         ],
         "precipitation_probability_max": [
           0,
@@ -376,7 +376,7 @@
     "santiago": {
       "latitude": -33.427067,
       "longitude": -70.64276,
-      "generationtime_ms": 0.09691715240478516,
+      "generationtime_ms": 0.1131296157836914,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -401,21 +401,21 @@
           51,
           3,
           3,
-          3
+          51
         ],
         "temperature_2m_max": [
-          10.3,
           10.0,
+          10.3,
+          10.9,
           11.2,
-          12.1,
-          8.7
+          9.4
         ],
         "temperature_2m_min": [
-          6.6,
-          4.9,
-          3.3,
-          5.6,
-          5.7
+          6.7,
+          4.5,
+          3.0,
+          5.3,
+          5.9
         ],
         "precipitation_probability_max": [
           4,
@@ -429,7 +429,7 @@
     "rancagua": {
       "latitude": -34.130054,
       "longitude": -70.738434,
-      "generationtime_ms": 0.2071857452392578,
+      "generationtime_ms": 0.1392364501953125,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -450,25 +450,25 @@
           "2026-08-11"
         ],
         "weather_code": [
-          53,
+          51,
           80,
           3,
           3,
-          3
+          51
         ],
         "temperature_2m_max": [
           11.6,
-          11.2,
-          10.8,
-          11.0,
-          9.0
+          11.3,
+          10.6,
+          10.9,
+          9.4
         ],
         "temperature_2m_min": [
           4.0,
-          2.9,
-          -0.2,
-          3.4,
-          2.5
+          2.5,
+          -0.8,
+          2.4,
+          3.3
         ],
         "precipitation_probability_max": [
           94,
@@ -482,7 +482,7 @@
     "talca": {
       "latitude": -35.39543,
       "longitude": -71.67734,
-      "generationtime_ms": 0.09918212890625,
+      "generationtime_ms": 0.1919269561767578,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -503,24 +503,24 @@
           "2026-08-11"
         ],
         "weather_code": [
-          80,
+          53,
           51,
           3,
           3,
           3
         ],
         "temperature_2m_max": [
-          12.0,
-          10.9,
-          11.9,
-          13.0,
-          12.0
+          11.2,
+          11.5,
+          11.8,
+          13.8,
+          11.9
         ],
         "temperature_2m_min": [
           1.2,
           1.9,
-          1.4,
-          -1.1,
+          1.0,
+          -1.4,
           3.0
         ],
         "precipitation_probability_max": [
@@ -535,7 +535,7 @@
     "concepcion": {
       "latitude": -36.801407,
       "longitude": -73.08804,
-      "generationtime_ms": 0.15246868133544922,
+      "generationtime_ms": 0.1983642578125,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -556,25 +556,25 @@
           "2026-08-11"
         ],
         "weather_code": [
-          80,
+          95,
           80,
           51,
           2,
-          51
+          3
         ],
         "temperature_2m_max": [
-          10.6,
+          10.7,
           9.6,
-          11.6,
-          11.7,
-          12.0
+          11.5,
+          11.5,
+          11.7
         ],
         "temperature_2m_min": [
           6.0,
-          5.3,
-          2.3,
+          5.2,
+          2.4,
           3.8,
-          4.1
+          2.0
         ],
         "precipitation_probability_max": [
           100,
@@ -588,7 +588,7 @@
     "temuco": {
       "latitude": -38.699474,
       "longitude": -72.58856,
-      "generationtime_ms": 0.1958608627319336,
+      "generationtime_ms": 0.2155303955078125,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -609,25 +609,25 @@
           "2026-08-11"
         ],
         "weather_code": [
-          85,
-          85,
-          51,
+          95,
+          86,
           3,
-          51
+          3,
+          1
         ],
         "temperature_2m_max": [
-          7.6,
-          6.1,
+          7.2,
+          5.8,
           11.1,
           11.2,
           11.6
         ],
         "temperature_2m_min": [
           2.2,
-          1.2,
-          1.8,
-          2.6,
-          1.6
+          0.6,
+          1.1,
+          2.4,
+          0.3
         ],
         "precipitation_probability_max": [
           100,
@@ -641,7 +641,7 @@
     "valdivia": {
       "latitude": -39.824253,
       "longitude": -73.20334,
-      "generationtime_ms": 0.1760721206665039,
+      "generationtime_ms": 0.12278556823730469,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -664,23 +664,23 @@
         "weather_code": [
           80,
           85,
-          51,
+          55,
           1,
-          51
+          0
         ],
         "temperature_2m_max": [
-          7.6,
-          7.0,
-          10.3,
+          8.4,
+          6.8,
+          11.1,
           10.4,
           11.6
         ],
         "temperature_2m_min": [
-          3.6,
-          1.2,
-          1.2,
-          1.4,
-          -0.2
+          3.7,
+          1.9,
+          1.9,
+          1.9,
+          -0.8
         ],
         "precipitation_probability_max": [
           100,
@@ -694,7 +694,7 @@
     "puerto-montt": {
       "latitude": -41.441124,
       "longitude": -72.906494,
-      "generationtime_ms": 0.10752677917480469,
+      "generationtime_ms": 0.09751319885253906,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -719,21 +719,21 @@
           86,
           53,
           3,
-          1
+          51
         ],
         "temperature_2m_max": [
           6.6,
-          4.5,
-          9.2,
-          8.8,
-          12.9
+          4.4,
+          9.7,
+          8.6,
+          13.2
         ],
         "temperature_2m_min": [
-          1.2,
-          1.2,
+          1.5,
+          1.3,
+          -1.0,
           -1.7,
-          -2.2,
-          3.9
+          5.2
         ],
         "precipitation_probability_max": [
           100,
@@ -747,7 +747,7 @@
     "coyhaique": {
       "latitude": -45.588753,
       "longitude": -72.02832,
-      "generationtime_ms": 0.17392635345458984,
+      "generationtime_ms": 0.2237558364868164,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -772,21 +772,21 @@
           85,
           3,
           0,
-          71
+          3
         ],
         "temperature_2m_max": [
-          4.1,
-          4.4,
-          1.2,
-          3.1,
-          3.9
+          4.0,
+          4.0,
+          0.2,
+          3.3,
+          4.1
         ],
         "temperature_2m_min": [
-          -2.3,
-          -6.9,
-          -11.3,
+          -2.2,
+          -9.3,
+          -13.6,
           -11.9,
-          -12.3
+          -11.9
         ],
         "precipitation_probability_max": [
           100,
@@ -800,7 +800,7 @@
     "punta-arenas": {
       "latitude": -53.11072,
       "longitude": -70.94519,
-      "generationtime_ms": 0.10156631469726562,
+      "generationtime_ms": 1.4338493347167969,
       "utc_offset_seconds": -14400,
       "timezone": "America/Santiago",
       "timezone_abbreviation": "GMT-4",
@@ -828,18 +828,18 @@
           3
         ],
         "temperature_2m_max": [
-          2.7,
-          4.8,
-          4.8,
-          6.3,
-          6.2
+          3.2,
+          4.7,
+          4.4,
+          6.1,
+          5.8
         ],
         "temperature_2m_min": [
           -1.9,
           -0.9,
-          0.8,
-          2.8,
-          0.2
+          0.5,
+          3.1,
+          1.3
         ],
         "precipitation_probability_max": [
           9,
@@ -847,6 +847,748 @@
           0,
           0,
           0
+        ]
+      }
+    },
+    "calama": {
+      "latitude": -22.460457,
+      "longitude": -68.92227,
+      "generationtime_ms": 0.14448165893554688,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 2262.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          0,
+          0,
+          3,
+          51,
+          80
+        ],
+        "temperature_2m_max": [
+          23.1,
+          22.4,
+          23.2,
+          20.9,
+          14.9
+        ],
+        "temperature_2m_min": [
+          6.3,
+          5.3,
+          6.0,
+          11.3,
+          9.5
+        ],
+        "precipitation_probability_max": [
+          0,
+          0,
+          0,
+          10,
+          79
+        ]
+      }
+    },
+    "san-pedro-de-atacama": {
+      "latitude": -22.88225,
+      "longitude": -68.227325,
+      "generationtime_ms": 2.2841691970825195,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 2438.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          0,
+          0,
+          3,
+          53,
+          80
+        ],
+        "temperature_2m_max": [
+          20.9,
+          19.7,
+          20.6,
+          20.0,
+          11.8
+        ],
+        "temperature_2m_min": [
+          4.6,
+          3.1,
+          5.0,
+          11.5,
+          7.9
+        ],
+        "precipitation_probability_max": [
+          0,
+          0,
+          0,
+          8,
+          89
+        ]
+      }
+    },
+    "chillan": {
+      "latitude": -36.59051,
+      "longitude": -72.09424,
+      "generationtime_ms": 0.1627206802368164,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 123.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          81,
+          86,
+          53,
+          3,
+          3
+        ],
+        "temperature_2m_max": [
+          9.3,
+          7.8,
+          11.7,
+          13.2,
+          9.4
+        ],
+        "temperature_2m_min": [
+          0.5,
+          1.5,
+          -1.4,
+          -1.1,
+          1.1
+        ],
+        "precipitation_probability_max": [
+          100,
+          100,
+          64,
+          2,
+          10
+        ]
+      }
+    },
+    "curico": {
+      "latitude": -34.973637,
+      "longitude": -71.24524,
+      "generationtime_ms": 0.18835067749023438,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 214.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          80,
+          53,
+          3,
+          3,
+          3
+        ],
+        "temperature_2m_max": [
+          11.8,
+          11.5,
+          11.4,
+          13.2,
+          11.3
+        ],
+        "temperature_2m_min": [
+          3.1,
+          1.9,
+          -0.6,
+          -2.4,
+          2.6
+        ],
+        "precipitation_probability_max": [
+          100,
+          71,
+          12,
+          2,
+          2
+        ]
+      }
+    },
+    "santa-cruz": {
+      "latitude": -34.622143,
+      "longitude": -71.36362,
+      "generationtime_ms": 0.1697540283203125,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 167.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          80,
+          51,
+          1,
+          3,
+          3
+        ],
+        "temperature_2m_max": [
+          11.9,
+          11.5,
+          12.1,
+          13.4,
+          12.3
+        ],
+        "temperature_2m_min": [
+          1.6,
+          0.9,
+          0.6,
+          -0.1,
+          3.7
+        ],
+        "precipitation_probability_max": [
+          100,
+          92,
+          5,
+          0,
+          6
+        ]
+      }
+    },
+    "osorno": {
+      "latitude": -40.52724,
+      "longitude": -73.0932,
+      "generationtime_ms": 0.31697750091552734,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 33.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          80,
+          85,
+          85,
+          1,
+          1
+        ],
+        "temperature_2m_max": [
+          7.8,
+          7.7,
+          8.9,
+          8.5,
+          11.6
+        ],
+        "temperature_2m_min": [
+          2.9,
+          1.8,
+          1.7,
+          2.2,
+          1.1
+        ],
+        "precipitation_probability_max": [
+          100,
+          100,
+          26,
+          2,
+          16
+        ]
+      }
+    },
+    "puerto-varas": {
+      "latitude": -41.300526,
+      "longitude": -72.955536,
+      "generationtime_ms": 0.1589059829711914,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 73.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          95,
+          86,
+          53,
+          2,
+          51
+        ],
+        "temperature_2m_max": [
+          6.6,
+          4.8,
+          9.1,
+          7.8,
+          11.1
+        ],
+        "temperature_2m_min": [
+          2.6,
+          2.3,
+          2.3,
+          0.9,
+          5.5
+        ],
+        "precipitation_probability_max": [
+          100,
+          100,
+          64,
+          0,
+          8
+        ]
+      }
+    },
+    "frutillar": {
+      "latitude": -41.08963,
+      "longitude": -73.028564,
+      "generationtime_ms": 0.23627281188964844,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 109.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          95,
+          86,
+          85,
+          2,
+          1
+        ],
+        "temperature_2m_max": [
+          6.3,
+          5.7,
+          8.9,
+          8.7,
+          11.2
+        ],
+        "temperature_2m_min": [
+          1.8,
+          0.4,
+          2.2,
+          1.5,
+          4.7
+        ],
+        "precipitation_probability_max": [
+          100,
+          100,
+          55,
+          2,
+          18
+        ]
+      }
+    },
+    "castro": {
+      "latitude": -42.495605,
+      "longitude": -73.72058,
+      "generationtime_ms": 0.18024444580078125,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 44.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          80,
+          53,
+          53,
+          0,
+          0
+        ],
+        "temperature_2m_max": [
+          6.9,
+          7.6,
+          8.3,
+          8.3,
+          10.0
+        ],
+        "temperature_2m_min": [
+          3.9,
+          2.5,
+          2.5,
+          1.6,
+          3.4
+        ],
+        "precipitation_probability_max": [
+          100,
+          100,
+          63,
+          0,
+          8
+        ]
+      }
+    },
+    "ancud": {
+      "latitude": -41.933216,
+      "longitude": -73.77905,
+      "generationtime_ms": 2.9506683349609375,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 26.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          85,
+          85,
+          3,
+          1,
+          51
+        ],
+        "temperature_2m_max": [
+          7.1,
+          6.9,
+          9.8,
+          10.2,
+          11.8
+        ],
+        "temperature_2m_min": [
+          3.9,
+          2.6,
+          2.1,
+          0.6,
+          1.8
+        ],
+        "precipitation_probability_max": [
+          100,
+          99,
+          23,
+          0,
+          22
+        ]
+      }
+    },
+    "villarrica": {
+      "latitude": -39.261864,
+      "longitude": -72.272736,
+      "generationtime_ms": 0.12695789337158203,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 228.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          85,
+          86,
+          85,
+          2,
+          3
+        ],
+        "temperature_2m_max": [
+          5.7,
+          3.4,
+          9.7,
+          8.4,
+          11.7
+        ],
+        "temperature_2m_min": [
+          1.5,
+          0.7,
+          1.1,
+          4.6,
+          4.9
+        ],
+        "precipitation_probability_max": [
+          100,
+          100,
+          77,
+          0,
+          18
+        ]
+      }
+    },
+    "pucon": {
+      "latitude": -39.261864,
+      "longitude": -71.90082,
+      "generationtime_ms": 0.087738037109375,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 235.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          86,
+          86,
+          71,
+          3,
+          3
+        ],
+        "temperature_2m_max": [
+          5.3,
+          5.0,
+          8.9,
+          7.5,
+          11.1
+        ],
+        "temperature_2m_min": [
+          2.1,
+          1.5,
+          0.0,
+          2.8,
+          2.2
+        ],
+        "precipitation_probability_max": [
+          100,
+          100,
+          77,
+          0,
+          18
+        ]
+      }
+    },
+    "puerto-natales": {
+      "latitude": -51.704746,
+      "longitude": -72.459015,
+      "generationtime_ms": 4.350185394287109,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 13.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          85,
+          3,
+          3,
+          3,
+          3
+        ],
+        "temperature_2m_max": [
+          1.0,
+          3.4,
+          3.1,
+          4.8,
+          4.2
+        ],
+        "temperature_2m_min": [
+          -4.1,
+          -3.1,
+          -5.2,
+          -1.5,
+          -4.4
+        ],
+        "precipitation_probability_max": [
+          59,
+          8,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "hanga-roa": {
+      "latitude": -27.170475,
+      "longitude": -109.44321,
+      "generationtime_ms": 0.40912628173828125,
+      "utc_offset_seconds": -14400,
+      "timezone": "America/Santiago",
+      "timezone_abbreviation": "GMT-4",
+      "elevation": 3.0,
+      "daily_units": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "precipitation_probability_max": "%"
+      },
+      "daily": {
+        "time": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11"
+        ],
+        "weather_code": [
+          53,
+          51,
+          3,
+          53,
+          51
+        ],
+        "temperature_2m_max": [
+          19.5,
+          19.2,
+          19.2,
+          20.0,
+          19.6
+        ],
+        "temperature_2m_min": [
+          18.0,
+          18.4,
+          18.8,
+          18.5,
+          18.4
+        ],
+        "precipitation_probability_max": [
+          82,
+          18,
+          6,
+          30,
+          29
         ]
       }
     }

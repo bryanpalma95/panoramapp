@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T14:52:54.952172",
+  "actualizado": "2026-08-07T15:25:41.156707",
   "ciudades": [
     {
       "id": "arica",
@@ -1144,6 +1144,978 @@
           "nombre": "Hospital Clínico Magallanes",
           "numero": "+56 61 220 5000",
           "detalle": "Hospital regional de Magallanes."
+        }
+      ]
+    },
+    {
+      "id": "calama",
+      "nombre": "Calama",
+      "region": "Región de Antofagasta",
+      "lat": -22.4567,
+      "lon": -68.927,
+      "descripcion": "Ciudad minera del cobre, puerta del desierto de Atacama y base para San Pedro de Atacama.",
+      "turismo": [
+        {
+          "titulo": "Oasis de San Pedro de Atacama",
+          "costo": "Gratis",
+          "detalle": "Pueblo mágico a 95 km, base para el valle de la Luna y el Tatio."
+        },
+        {
+          "titulo": "Valle de la Luna",
+          "costo": "Pago",
+          "detalle": "Formaciones de sal y dunas que parecen la superficie lunar, al atardecer."
+        },
+        {
+          "titulo": "Geysers del Tatio",
+          "costo": "Pago",
+          "detalle": "Campo geotermal a 4.320 msnm, se visita al amanecer."
+        },
+        {
+          "titulo": "Feria Artesanal de Calama",
+          "costo": "Gratis",
+          "detalle": "Artesanía atacameña y productos del altiplano."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto El Loa a 3 km del centro, con conexiones diarias a Santiago.",
+        "Buses desde el terminal a San Pedro de Atacama (1h 30).",
+        "Colectivos urbanos cubren la ciudad.",
+        "El centro minero es compacto y se recorre a pie."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Carlos Cisternas",
+          "numero": "+56 55 253 7000",
+          "detalle": "Hospital base de Calama."
+        }
+      ]
+    },
+    {
+      "id": "san-pedro-de-atacama",
+      "nombre": "San Pedro de Atacama",
+      "region": "Región de Antofagasta",
+      "lat": -22.911,
+      "lon": -68.2012,
+      "descripcion": "Pueblo mágico del altiplano, puerta del desierto más árido del mundo con paisajes únicos.",
+      "turismo": [
+        {
+          "titulo": "Valle de la Luna",
+          "costo": "Pago",
+          "detalle": "Dunas y cordillera de sal en el Parque Nacional Los Flamencos."
+        },
+        {
+          "titulo": "Geysers del Tatio",
+          "costo": "Pago",
+          "detalle": "Amanecer geotermal a 4.320 msnm con baños termales."
+        },
+        {
+          "titulo": "Lagunas Miscanti y Miñiques",
+          "costo": "Pago",
+          "detalle": "Lagunas altiplánicas rodeadas de volcanes, a 4.200 msnm."
+        },
+        {
+          "titulo": "Piedras Rojas",
+          "costo": "Pago",
+          "detalle": "Formación rocosa roja junto a la laguna Tuyajto."
+        },
+        {
+          "titulo": "Observatorio ALMA",
+          "costo": "Gratis",
+          "detalle": "Visitas astronómicas al radiotelescopio más grande del mundo."
+        }
+      ],
+      "transporte": [
+        "Buses desde Calama cada hora (1h 30) y tours desde el pueblo.",
+        "Se recorre a pie; el centro es pequeño y turístico.",
+        "Arriendo de bicicletas y autos 4x4 para los atractivos.",
+        "La mayoría de los tours parten a las 4-5 AM para el amanecer."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Posta de San Pedro de Atacama",
+          "numero": "+56 55 285 1001",
+          "detalle": "Atención primaria; casos complejos se derivan a Calama."
+        }
+      ]
+    },
+    {
+      "id": "chillan",
+      "nombre": "Chillán",
+      "region": "Región de Ñuble",
+      "lat": -36.6066,
+      "lon": -72.1033,
+      "descripcion": "Ciudad del sur central, puerta a las termas y al centro de esquí más austral de Sudamérica.",
+      "turismo": [
+        {
+          "titulo": "Termas de Chillán",
+          "costo": "Pago",
+          "detalle": "Complejo termal de montaña a 80 km con nieve en invierno."
+        },
+        {
+          "titulo": "Nevados de Chillán",
+          "costo": "Pago",
+          "detalle": "Centro de esquí con pistas para todos los niveles."
+        },
+        {
+          "titulo": "Mercado de Chillán",
+          "costo": "Gratis",
+          "detalle": "Longanizas, queso y artesanía regional."
+        },
+        {
+          "titulo": "Plaza de Armas",
+          "costo": "Gratis",
+          "detalle": "Plaza histórica con la Catedral y murales de Artequin."
+        }
+      ],
+      "transporte": [
+        "Buses frecuentes a Santiago, Concepción y Termas de Chillán.",
+        "Aeródromo General Bernardo O'Higgins cercano.",
+        "Colectivos y micros urbanos.",
+        "La ruta a las termas se hace en auto o tours desde el centro."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Clínico Herminda Martín",
+          "numero": "+56 42 258 5000",
+          "detalle": "Hospital base de Ñuble."
+        }
+      ]
+    },
+    {
+      "id": "curico",
+      "nombre": "Curicó",
+      "region": "Región del Maule",
+      "lat": -34.9853,
+      "lon": -71.2394,
+      "descripcion": "Capital del vino del Valle de Curicó, a mitad de camino entre Santiago y el sur.",
+      "turismo": [
+        {
+          "titulo": "Parque Nacional Radal Siete Tazas",
+          "costo": "Pago",
+          "detalle": "Cascadas y pozones esmeralda en la cordillera, a 1h 30."
+        },
+        {
+          "titulo": "Viñedos Valle de Curicó",
+          "costo": "Pago",
+          "detalle": "Ruta del vino con bodegas centenarias."
+        },
+        {
+          "titulo": "Mercado de Curicó",
+          "costo": "Gratis",
+          "detalle": "Gastronomía tradicional maulina y productos locales."
+        },
+        {
+          "titulo": "Termas de Panimávida",
+          "costo": "Pago",
+          "detalle": "Centro termal a 45 minutos de la ciudad."
+        }
+      ],
+      "transporte": [
+        "Ruta 5 Sur a 185 km de Santiago con buses cada 30 minutos.",
+        "Trenes de pasajeros hacia Santiago y Talca.",
+        "Micros y colectivos urbanos.",
+        "Para Siete Tazas y viñedos: auto o tours rurales."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Curicó",
+          "numero": "+56 75 240 7000",
+          "detalle": "Hospital base del Maule."
+        }
+      ]
+    },
+    {
+      "id": "santa-cruz",
+      "nombre": "Santa Cruz",
+      "region": "Región del Libertador General Bernardo O'Higgins",
+      "lat": -34.6381,
+      "lon": -71.3661,
+      "descripcion": "Capital del Valle de Colchagua, corazón de la Ruta del Vino más premiada de Chile.",
+      "turismo": [
+        {
+          "titulo": "Museo de Colchagua",
+          "costo": "Pago",
+          "detalle": "Uno de los mejores museos de América Latina: historia, arqueología y arte huaso."
+        },
+        {
+          "titulo": "Viña Montes",
+          "costo": "Pago",
+          "detalle": "Bodega sustentable con arquitectura de tierra y visita a las cavas."
+        },
+        {
+          "titulo": "Tren Colchagua",
+          "costo": "Pago",
+          "detalle": "Vagones históricos que recorren antiguas estaciones del valle."
+        },
+        {
+          "titulo": "Plaza de Armas",
+          "costo": "Gratis",
+          "detalle": "Pueblo colonial con la Parroquia de Santa Cruz."
+        }
+      ],
+      "transporte": [
+        "Buses desde Santiago (2h) y San Fernando.",
+        "Se recorre a pie el centro.",
+        "Para las viñas: tours, arriendo de auto o bicicleta.",
+        "La Ruta del Vino parte desde la oficina de turismo local."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Santa Cruz",
+          "numero": "+56 72 282 8700",
+          "detalle": "Hospital de la red O'Higgins."
+        }
+      ]
+    },
+    {
+      "id": "osorno",
+      "nombre": "Osorno",
+      "region": "Región de Los Lagos",
+      "lat": -40.5733,
+      "lon": -73.1349,
+      "descripcion": "Ciudad intermedia del sur, base para el volcán Osorno, el lago Llanquihue y el Parque Puyehue.",
+      "turismo": [
+        {
+          "titulo": "Volcán Osorno",
+          "costo": "Gratis",
+          "detalle": "El volcán más fotogénico de Chile, con vista al lago Llanquihue."
+        },
+        {
+          "titulo": "Saltos de Petrohué",
+          "costo": "Pago",
+          "detalle": "Cascadas de aguas turquesas del río Petrohué hacia el lago Todos los Santos."
+        },
+        {
+          "titulo": "Parque Nacional Puyehue",
+          "costo": "Pago",
+          "detalle": "Bosques valdivianos, termas y senderos de montaña."
+        },
+        {
+          "titulo": "Feria Campesina",
+          "costo": "Gratis",
+          "detalle": "Productos locales, queso y miel del sur."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto Cañal Bajo a 7 km del centro.",
+        "Terminal de buses con salidas a Puerto Montt, Valdivia y Santiago.",
+        "Buses locales para la ruta del volcán Osorno y Petrohué.",
+        "El centro es caminable y ordenado."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Base de Osorno",
+          "numero": "+56 64 237 4700",
+          "detalle": "Hospital regional de Osorno."
+        }
+      ]
+    },
+    {
+      "id": "puerto-varas",
+      "nombre": "Puerto Varas",
+      "region": "Región de Los Lagos",
+      "lat": -41.3192,
+      "lon": -72.9833,
+      "descripcion": "La ciudad de las rosas y el lago Llanquihue, con vista privilegiada al volcán Osorno.",
+      "turismo": [
+        {
+          "titulo": "Lago Llanquihue",
+          "costo": "Gratis",
+          "detalle": "El segundo lago más grande de Chile, con playas y costanera."
+        },
+        {
+          "titulo": "Volcán Osorno",
+          "costo": "Pago",
+          "detalle": "Vista desde la playa central; se asciende en andariveles desde la ladera."
+        },
+        {
+          "titulo": "Iglesia del Sagrado Corazón",
+          "costo": "Gratis",
+          "detalle": "Templo de madera de estilo alemán, ícono del casco histórico."
+        },
+        {
+          "titulo": "Saltos de Petrohué",
+          "costo": "Pago",
+          "detalle": "Cascadas turquesas a 45 minutos por la Ruta CH-225."
+        },
+        {
+          "titulo": "Casino Dreams",
+          "costo": "Pago",
+          "detalle": "Complejo de entretención frente al lago."
+        }
+      ],
+      "transporte": [
+        "Buses desde Puerto Montt cada 30 minutos (20 km).",
+        "La costanera y el centro se recorren a pie.",
+        "Tours al volcán Osorno, Petrohué y Frutillar desde la oficina de turismo.",
+        "Arriendo de bicicletas para la costanera."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital Puerto Varas",
+          "numero": "+56 65 233 5200",
+          "detalle": "Atención primaria y urgencias."
+        }
+      ]
+    },
+    {
+      "id": "frutillar",
+      "nombre": "Frutillar",
+      "region": "Región de Los Lagos",
+      "lat": -41.1239,
+      "lon": -73.0361,
+      "descripcion": "Ciudad alemana del lago Llanquihue, famosa por su Teatro del Lago y las Semanas Musicales.",
+      "turismo": [
+        {
+          "titulo": "Teatro del Lago",
+          "costo": "Pago",
+          "detalle": "Impresionante teatro de madera frente al lago, sede de las Semanas Musicales."
+        },
+        {
+          "titulo": "Costanera y muelle",
+          "costo": "Gratis",
+          "detalle": "Paseo con vista al volcán Osorno y jardines florales."
+        },
+        {
+          "titulo": "Museo Colonial Alemán",
+          "costo": "Pago",
+          "detalle": "Reconstrucción de la vida de los colonos alemanes del siglo XIX."
+        },
+        {
+          "titulo": "Feria de artesanía",
+          "costo": "Gratis",
+          "detalle": "Lana, madera y mermeladas artesanales junto a la costanera."
+        }
+      ],
+      "transporte": [
+        "Buses desde Puerto Montt y Puerto Varas cada hora.",
+        "La costanera se recorre a pie en 30 minutos.",
+        "El Teatro del Lago y el museo están a pasos del muelle.",
+        "Para el volcán Osorno: tours o buses desde Puerto Varas."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Cesfam Frutillar",
+          "numero": "+56 65 273 2008",
+          "detalle": "Centro de salud familiar."
+        }
+      ]
+    },
+    {
+      "id": "castro",
+      "nombre": "Castro",
+      "region": "Región de Los Lagos (Chiloé)",
+      "lat": -42.4822,
+      "lon": -73.7642,
+      "descripcion": "Capital de Chiloé, famosa por sus palafitos de colores y las iglesias patrimonio de la UNESCO.",
+      "turismo": [
+        {
+          "titulo": "Palafitos de Castro",
+          "costo": "Gratis",
+          "detalle": "Casas de colores sobre pilotes en el borde del mar."
+        },
+        {
+          "titulo": "Iglesia de San Francisco",
+          "costo": "Gratis",
+          "detalle": "Iglesia de madera patrimonio de la UNESCO, construida en el siglo XIX."
+        },
+        {
+          "titulo": "Mercado de Castro",
+          "costo": "Gratis",
+          "detalle": "Gastronomía chilota: curanto, mariscos y papas nativas."
+        },
+        {
+          "titulo": "Isla Quinchao",
+          "costo": "Gratis",
+          "detalle": "Travesía en lancha a Achao y Curaco de Vélez con sus iglesias históricas."
+        },
+        {
+          "titulo": "Pingüinera de Puñihuil",
+          "costo": "Pago",
+          "detalle": "Colonia de pingüinos de Magallanes y Humboldt a 30 km."
+        }
+      ],
+      "transporte": [
+        "Se llega por la Carretera Austral desde Pargua (ferry) o por el puente de Dalcahue.",
+        "Buses desde Ancud, Chonchi y Quellón.",
+        "Lanchas y barcazas para las islas del archipiélago.",
+        "El centro con palafitos se recorre a pie."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Castro",
+          "numero": "+56 65 264 3000",
+          "detalle": "Hospital base de Chiloé."
+        }
+      ]
+    },
+    {
+      "id": "ancud",
+      "nombre": "Ancud",
+      "region": "Región de Los Lagos (Chiloé)",
+      "lat": -41.8697,
+      "lon": -73.8203,
+      "descripcion": "Primera ciudad y puerta de entrada a Chiloé, con fuerte español y pingüineras cercanas.",
+      "turismo": [
+        {
+          "titulo": "Fuerte San Antonio",
+          "costo": "Gratis",
+          "detalle": "Fuerte colonial español de 1770 con cañones y vista a la bahía."
+        },
+        {
+          "titulo": "Pingüineras de Puñihuil",
+          "costo": "Pago",
+          "detalle": "Islas con pingüinos de Magallanes y Humboldt, a 30 km al norte."
+        },
+        {
+          "titulo": "Mercado de Ancud",
+          "costo": "Gratis",
+          "detalle": "Artesanía en lana de oveja y madera de Chiloé."
+        },
+        {
+          "titulo": "Plaza de Armas",
+          "costo": "Gratis",
+          "detalle": "Plaza con la Catedral y el área costera."
+        }
+      ],
+      "transporte": [
+        "Ferry desde Pargua cada 30-40 minutos (30' cruce).",
+        "Frecuentes buses a Castro, Puerto Montt y Santiago.",
+        "Para Puñihuil: buses locales o tours desde el centro.",
+        "La ciudad se recorre a pie en medio día."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Ancud",
+          "numero": "+56 65 262 2200",
+          "detalle": "Hospital de la red Chiloé."
+        }
+      ]
+    },
+    {
+      "id": "villarrica",
+      "nombre": "Villarrica",
+      "region": "Región de la Araucanía",
+      "lat": -39.2797,
+      "lon": -72.2279,
+      "descripcion": "Ciudad del lago Villarrica con playa urbana y vista permanente al volcán, tranquila y familiar.",
+      "turismo": [
+        {
+          "titulo": "Lago Villarrica",
+          "costo": "Gratis",
+          "detalle": "Playa urbana, paseos en lancha y deportes náuticos."
+        },
+        {
+          "titulo": "Volcán Villarrica",
+          "costo": "Pago",
+          "detalle": "Ascenso al cráter activo con guías, desde Pucón (lado norte)."
+        },
+        {
+          "titulo": "Plaza de Armas y Feria",
+          "costo": "Gratis",
+          "detalle": "Murales del artista local y feria de artesanía mapuche."
+        },
+        {
+          "titulo": "Cerro Oncol y Mocho-Choshuenco",
+          "costo": "Gratis",
+          "detalle": "Miradores y senderos en la cordillera cercana."
+        }
+      ],
+      "transporte": [
+        "Buses desde Temuco cada 30 minutos (1h).",
+        "La costanera y el centro se recorren a pie.",
+        "Micros locales conectan el centro con Pucón.",
+        "Para el volcán: tours desde la oficina de turismo."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Villarrica",
+          "numero": "+56 45 241 1900",
+          "detalle": "Hospital de la Araucanía."
+        }
+      ]
+    },
+    {
+      "id": "pucon",
+      "nombre": "Pucón",
+      "region": "Región de la Araucanía",
+      "lat": -39.2822,
+      "lon": -71.9549,
+      "descripcion": "Capital del turismo aventura de Chile: volcán activo, termas, lagos y bosques nativos.",
+      "turismo": [
+        {
+          "titulo": "Volcán Villarrica",
+          "costo": "Pago",
+          "detalle": "Ascenso con raquetas o guiado al cráter con vista al lago; alternativas al amanecer."
+        },
+        {
+          "titulo": "Termas Geométricas",
+          "costo": "Pago",
+          "detalle": "Complejo de aguas termales en medio del bosque con pasarelas de madera."
+        },
+        {
+          "titulo": "Parque Nacional Huerquehue",
+          "costo": "Pago",
+          "detalle": "Senderos entre araucarias milenarias y lagunas de montaña."
+        },
+        {
+          "titulo": "Lago Villarrica",
+          "costo": "Gratis",
+          "detalle": "Playa Grande para nadar, kayak y paseos en lancha."
+        },
+        {
+          "titulo": "Rafting y canopy",
+          "costo": "Pago",
+          "detalle": "Río Trancura y canopy en el bosque, el corazón del turismo aventura."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto de Maquehue/Temuco a 1h 15 por la Ruta 199.",
+        "Buses desde Temuco y Villarrica cada 30 minutos.",
+        "La ciudad se recorre a pie; hay arriendo de bicicletas.",
+        "Tours y transfers a termas, volcán y parques desde el centro."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Pucón",
+          "numero": "+56 45 244 2700",
+          "detalle": "Hospital de la Araucanía."
+        }
+      ]
+    },
+    {
+      "id": "puerto-natales",
+      "nombre": "Puerto Natales",
+      "region": "Región de Magallanes",
+      "lat": -51.7311,
+      "lon": -72.506,
+      "descripcion": "Puerta de entrada al Parque Nacional Torres del Paine, junto al fiordo Última Esperanza.",
+      "turismo": [
+        {
+          "titulo": "Torres del Paine",
+          "costo": "Pago",
+          "detalle": "El parque nacional más famoso de Sudamérica: macizos, glaciares y guanacos."
+        },
+        {
+          "titulo": "Glaciar Grey",
+          "costo": "Pago",
+          "detalle": "Navegación entre témpanos o trekking por el sendero del glaciar."
+        },
+        {
+          "titulo": "Cueva del Milodón",
+          "costo": "Pago",
+          "detalle": "Gran caverna donde se halló el milodón prehistórico, a 24 km."
+        },
+        {
+          "titulo": "Fiordo Última Esperanza",
+          "costo": "Pago",
+          "detalle": "Navegación por el fiordo hasta el glaciar Balmaceda y Serrano."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto Teniente Julio Gallardo a 7 km, con vuelos desde Punta Arenas y Santiago.",
+        "Buses desde Punta Arenas (3h) cada 2-3 horas.",
+        "Para Torres del Paine: buses Buses Gómez o tours desde el terminal.",
+        "Se camina el centro en 20 minutos."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Puerto Natales",
+          "numero": "+56 61 272 6360",
+          "detalle": "Hospital de Magallanes."
+        }
+      ]
+    },
+    {
+      "id": "hanga-roa",
+      "nombre": "Hanga Roa (Isla de Pascua)",
+      "region": "Región de Valparaíso",
+      "lat": -27.149,
+      "lon": -109.431,
+      "descripcion": "Única ciudad de Rapa Nui, hogar de los moáis y la cultura polinésica más remota del mundo.",
+      "turismo": [
+        {
+          "titulo": "Ahu Tongariki",
+          "costo": "Pago",
+          "detalle": "El ahu más impresionante: 15 moáis restaurados frente al mar."
+        },
+        {
+          "titulo": "Rano Raraku",
+          "costo": "Pago",
+          "detalle": "La cantera donde se tallaron los moáis, con decenas de estatuas inconclusas."
+        },
+        {
+          "titulo": "Playa Anakena",
+          "costo": "Gratis",
+          "detalle": "Playa de arena blanca con cocoteros y moáis en la orilla."
+        },
+        {
+          "titulo": "Rano Kau y Orongo",
+          "costo": "Pago",
+          "detalle": "Volcán con lago interior y el poblado ceremonial de la cultura del hombre pájaro."
+        }
+      ],
+      "transporte": [
+        "Aeropuerto Mataveri (IPC) con vuelos desde Santiago vía LATAM.",
+        "Se recorre la isla en auto, moto, bicicleta o tours.",
+        "Hanga Roa se camina; los sitios arqueológicos están diseminados.",
+        "Es necesaria una entrada al Parque Nacional Rapa Nui (se compra en línea)."
+      ],
+      "emergencia": [
+        {
+          "nombre": "Carabineros de Chile",
+          "numero": "133",
+          "detalle": "Emergencias policiales en todo el territorio."
+        },
+        {
+          "nombre": "Bomberos",
+          "numero": "132",
+          "detalle": "Incendios y rescates."
+        },
+        {
+          "nombre": "SAMU (Ambulancia)",
+          "numero": "131",
+          "detalle": "Emergencia médica y rescate."
+        },
+        {
+          "nombre": "PDI",
+          "numero": "134",
+          "detalle": "Policía de Investigaciones."
+        },
+        {
+          "nombre": "Emergencia Marítima",
+          "numero": "137",
+          "detalle": "Rescate en costas y navegación."
+        },
+        {
+          "nombre": "Hospital de Hanga Roa",
+          "numero": "+56 32 210 0500",
+          "detalle": "Único centro hospitalario de la isla."
         }
       ]
     }
